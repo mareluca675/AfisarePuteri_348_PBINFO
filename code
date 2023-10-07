@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    long long n, i = 0, a, p;
+    cin >> a >> n;
+    p = a;
+    
+    cout << 1 <<" ";
+    
+    while(a <= n)
+    {
+        cout<< a << " ";
+        a = a * p;
+    }
+
+    
+    return 0;
+}
